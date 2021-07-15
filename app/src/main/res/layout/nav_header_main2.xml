@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+    <ImageView
+        android:id="@+id/nav_user_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_account_box_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nav_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="John Doe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav_user_photo"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nav_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nav_username"
+        android:textColor="#fff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/sign_out"
+        android:id="@+id/sign_out_button"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

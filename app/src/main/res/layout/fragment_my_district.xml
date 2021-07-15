@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MyDistrictFragment"
+    android:padding="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:id="@+id/district_title"
+            android:text="@string/title_district"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_stations"
+            app:layout_constraintTop_toBottomOf="@id/district_title"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/title_nearest"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/title_stations"
+            android:id="@+id/stations_layout"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stations_progressbar"
+            app:layout_constraintTop_toBottomOf="@id/title_stations"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/see_more"
+            style="?android:attr/borderlessButtonStyle"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/stations_layout"
+            android:id="@+id/more_polling"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toBottomOf="@id/more_polling"
+            android:background="#ddd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_candidates"
+            app:layout_constraintTop_toBottomOf="@id/more_polling"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/title_district_candidates"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/title_candidates"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:id="@+id/candidates_progressbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@id/title_candidates"
+            android:id="@+id/candidates_layout"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/see_more"
+            style="?android:attr/borderlessButtonStyle"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/candidates_layout"
+            android:id="@+id/more_candidates"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

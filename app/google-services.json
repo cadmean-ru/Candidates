@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "502637312679",
+    "firebase_url": "https://candidates-cadmean.firebaseio.com",
+    "project_id": "candidates-cadmean",
+    "storage_bucket": "candidates-cadmean.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502637312679:android:eb7b488335e2cddee9f982",
+        "android_client_info": {
+          "package_name": "ru.cadmean.candidates"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502637312679-ujgprkt4bpgr05d13m5bsjrk2qef7hs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA12eH4iOxMDchE_q7RuGLO_OdFz9bk_nE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502637312679-ujgprkt4bpgr05d13m5bsjrk2qef7hs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

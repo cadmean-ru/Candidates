@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/Title"
+        android:id="@+id/row_post_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/row_post_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/row_post_description" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/row_post_description"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/row_post_image"
+        android:contentDescription="@string/desc_row_post_image"/>
+
+<!--    <ImageView-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/row_post_image"-->
+<!--        android:contentDescription="@string/desc_user_image"-->
+<!--        android:id="@+id/row_post_user_image"-->
+<!--        tools:srcCompat="@tools:sample/avatars"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintLeft_toRightOf="@id/row_post_user_image"-->
+<!--        app:layout_constraintTop_toTopOf="@id/row_post_user_image"-->
+<!--        android:text="@string/username"-->
+<!--        android:id="@+id/row_post_username"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

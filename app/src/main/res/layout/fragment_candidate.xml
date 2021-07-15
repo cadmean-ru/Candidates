@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CandidateFragment"
+    android:padding="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Kotlyar"
+            android:textAlignment="center"
+            android:id="@+id/surname_text"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+            app:layout_constraintTop_toBottomOf="@id/surname_text"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:text="Gerogy Aleksandrovich"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/party_text"
+            app:layout_constraintTop_toBottomOf="@id/name_text"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="Yabloko"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/year_text"
+            android:text="@string/year_label"
+            app:layout_constraintTop_toBottomOf="@id/party_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/residence_text"
+            app:layout_constraintTop_toBottomOf="@id/year_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/residence_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/work_text"
+            app:layout_constraintTop_toBottomOf="@id/residence_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/work_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/position_text"
+            app:layout_constraintTop_toBottomOf="@id/work_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/work_position_label"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/biography_title"
+            android:text="@string/biography_label"
+            app:layout_constraintTop_toBottomOf="@id/position_text"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/biography_text"
+            app:layout_constraintTop_toBottomOf="@id/biography_title"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

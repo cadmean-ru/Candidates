@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Кандидаты</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_candidates">Кандидаты</string>
+    <string name="menu_list">Избирательные участки</string>
+    <string name="menu_map">Карта</string>
+    <string name="about_app_desc">Приложение создали Крицков Алексей, Георгий Котляр, Кузнецова Анастасия, Виктор Ермолов и Клюшкин Валерий.</string>
+    <string name="year_label">Год рождения:&#160;%1$d</string>
+    <string name="residence_label">Место проживания:&#160;%1$s</string>
+    <string name="work_label">Основное место работы:&#160;%1$s</string>
+    <string name="work_position_label">Занимаемая должность:&#160;%1$s</string>
+    <string name="biography_label">Биография</string>
+    <string name="candidates_load_error">Не удалось загрузить список кандидатов.</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_maps">Карты</string>
+    <string name="district_number">Выбранный округ: %1$d</string>
+    <string name="loading">Загрузка...</string>
+    <string name="error">Ошибка</string>
+    <string name="nothing_found">По вашему запросу ничего не найдено(</string>
+    <string name="address_hint">Введите ваш адрес</string>
+    <string name="district_confirm_button_desc">Подтвердить выбранный округ</string>
+    <string name="active_district">Ваш активный избирательный округ %1$d</string>
+    <string name="district_not_found">Избирательный округ не найден</string>
+    <string name="menu_district">Мой округ</string>
+    <string name="title_district">Округ №%1$d</string>
+    <string name="message_select_district">Пожалйста, выберите ваш избирательный округ на карте</string>
+    <string name="title_nearest">Избирательные участки в вашем округе</string>
+    <string name="title_district_candidates">Кандидаты в вашем округе</string>
+    <string name="see_more">Больше</string>
+    <string name="no_candidates_in_district">Кажется, в этом округе не заригистрировано ни одного кандидата &#129300;</string>
+    <string name="no_stations_in_district">Мы не нашли ни одного избирательного участка в вашем округе &#129300;</string>
+    <string name="explain_location">Вам нужно дать приложению разрешение на доступ к вашей геопозиции, чтобы мы смогли автоматически определить ваш избирательный округ.</string>
+    <string name="desc_post_image">Добавить изображение к посту</string>
+    <string name="desc_row_post_image">Изображение</string>
+    <string name="desc_user_image">Изображение пользователя</string>
+    <string name="desc_close_dialog">Закрыть диалоговое окно</string>
+    <string name="hint_post_description">Описание поста</string>
+    <string name="hint_post_title">Заголовок поста</string>
+    <string name="title_edit_post">Пост</string>
+    <string name="title_polling_station">Избирательный участок</string>
+    <string name="username">Имя пользователя</string>
+    <string name="desc_post_done">Опубликовать пост</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_repeat_password">Подтвердите пароль</string>
+    <string name="login">Войти</string>
+    <string name="nav_discussion">Обсуждение</string>
+    <string name="or">или</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="sign_out">Выйти</string>
+    <string name="candidate">Кандидат</string>
+    <string name="title_post">Пост</string>
+</resources>
